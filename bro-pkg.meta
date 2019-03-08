@@ -1,0 +1,3 @@
+[package]
+description = Clear SSL memory
+script_dir = scripts
