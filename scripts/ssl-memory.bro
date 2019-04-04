@@ -1,9 +1,9 @@
 event clear_ssl(c: connection)
 {
         if (c$ssl?$cert_chain)
-                c$ssl$cert_chain = vector();
+                delete c$ssl$cert_chain;
         if (c$ssl?$client_cert_chain)
-                c$ssl$client_cert_chain = vector();
+                delete c$ssl$client_cert_chain;
 }
 
 event ssl_established(c: connection) &priority=-200
