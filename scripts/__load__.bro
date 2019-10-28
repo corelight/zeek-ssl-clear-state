@@ -1,1 +1,1 @@
-@load ./ssl-memory.bro
+@load ./ssl-clear-state.bro
