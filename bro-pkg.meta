@@ -1,3 +1,5 @@
 [package]
 description = Clear SSL State
 script_dir = scripts
+depends =
+  bro >= 2.6
